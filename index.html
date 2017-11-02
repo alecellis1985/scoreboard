@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scorebord</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="number_pad.css"/>
+    <script src="dev/app/app.js"></script>
+    <script src="dev/app/directives/number.directive.js"></script>
+    <script src="dev/app/controllers/numberController.js"></script>
+
+</head>
+<body ng-controller="numberController">
+<input type="text" ng-model="number">
+<number time="number"></number>
+</body>
+</html>

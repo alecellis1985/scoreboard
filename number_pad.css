@@ -1,0 +1,28 @@
+        .number_pad {
+            width: 54px;
+            font-size: 10px;
+        }
+        .number_dot {
+            display: inline;
+            background: #333333;
+            border-radius: 100%;
+            margin: 1px;
+        }
+
+        .number_empty {
+            display: inline;
+            background: none;
+            border-radius: 100%;
+            margin: 1px;
+            color: #ffffff;
+        }
+
+        p.content {
+            display: inline-block;
+            margin: 0px;
+            margin-top: 1px;
+        }
+
+        .active {
+            background: #1cabe2;
+        }
