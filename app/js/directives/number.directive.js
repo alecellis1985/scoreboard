@@ -5,7 +5,7 @@
     function number() {
         var directive = {
             link: link,
-            templateUrl: 'dev/app/templates/numberTemplate.html',
+            templateUrl: 'app/js/templates/numberTemplate.html',
             restrict: 'E',
             scope: {
                 "time": "="
