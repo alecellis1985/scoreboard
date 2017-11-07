@@ -5,7 +5,7 @@
     /*width: 1633px;*/
     width: 100%;
     border: 4px solid #FFFFFF;
-    padding: 40px 46px 30px 46px;
+    padding: 13px 46px 30px 46px;
     border-radius: 30px;
 }
 
@@ -120,7 +120,87 @@ h1.gclinics {
         color: #ff0000 !important;
     }
 
+.ball .fa.fa-circle {
+    font-size: 9px;
+    position: relative;
+    float: left;
+    padding: 0;
+}
 
+.ball {
+    color: #484846;
+}
+
+    .ball.active {
+        color: #ff0000;
+    }
+
+.inner-balls {
+    float: left;
+}
+
+    .inner-balls .id1 {
+        position: relative;
+        top: 0;
+    }
+
+    .inner-balls .id2 {
+        position: relative;
+        top: -9px;
+    }
+
+.ballL {
+    position: absolute;
+    left: 0;
+}
+
+.ballR {
+    position: absolute;
+    right: 0;
+}
+
+.ball > .fa-circle:first-child {
+    padding: 0
+}
+
+.ball > .fa-circle:last-child {
+    padding: 0
+}
+
+.t27 {
+    top: 13px;
+}
+
+.t27_ {
+    top: -13px;
+}
+
+.t9_ {
+    top: -6px;
+}
+
+.t9 {
+    top: 6px;
+}
+
+.t18_ {
+    top: -11px;
+}
+
+.t18 {
+    top: 11px;
+}
+
+
+
+.percentIcon {
+    font-size: 53px;
+    float: right;
+    top: 22px;
+    left: 10px;
+    position: relative;
+    color: #1CABE2;
+}
 
 .timmerSeparation {
     display: inline-block;

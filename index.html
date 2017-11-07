@@ -26,23 +26,23 @@
                         <div class="col-xs-12">
                             <label>
                                 <i class="fa fa-usd" aria-hidden="true"></i>
-                                <number time="vm.outputCurrentpartnerSalese[0]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[1]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[2]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[3]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[4]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[5]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[6]"></number>
+                                <number time="vm.outputCurrentCoachSale[0]"></number>
+                                <number time="vm.outputCurrentCoachSale[1]"></number>
+                                <number time="vm.outputCurrentCoachSale[2]"></number>
+                                <number time="vm.outputCurrentCoachSale[3]"></number>
+                                <number time="vm.outputCurrentCoachSale[4]"></number>
+                                <number time="vm.outputCurrentCoachSale[5]"></number>
+                                <number time="vm.outputCurrentCoachSale[6]"></number>
                             </label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 text-center">
                             <label>
-                                <i class="fa fa-percent" aria-hidden="true"></i>
-                                <number time="goal1"></number>
-                                <number time="goal253=2"></number>
-                                <number time="goal353=4"></number>
+                                <span class="percentIcon">%</span>
+                                <number time="vm.outputCoachSalePerc[0]"></number>
+                                <number time="vm.outputCoachSalePerc[1]"></number>
+                                <number time="vm.outputCoachSalePerc[2]"></number>
                             </label>
                         </div>
                     </div>
@@ -55,6 +55,8 @@
                 <div class="col-xs-4">
                     <h1 class="gclinics">
                         Glazier <br /><span>Clinics</span>
+                        <fball class="ballL" on="vm.coachwinning == 1"></fball>
+                        <fball class="ballR" on="vm.coachwinning == 0"></fball>
                     </h1>
                     <div class="row secTimes">
                         <div class="col-xs-12 text-center">
@@ -63,24 +65,24 @@
                                     <div class="col-xs-12">
                                         <div class="timeSec">
                                             <label>
-                                                <number time="goal34 = 1"></number>
-                                                <number time="goal253 = 0"></number>
-                                                <number time="goal34=3"></number>
+                                                <number time="vm.outputDaysRemaining[0]"></number>
+                                                <number time="vm.outputDaysRemaining[1]"></number>
+                                                <number time="vm.outputDaysRemaining[2]"></number>
                                             </label>
                                             <h4>Days</h4>
                                         </div>
                                         <div class="timmerSeparation">
-                                            <div class="number_dot active">
+                                            <div class="number_dot" ng-class="{'active':vm.timerActive}">
                                                 <i class="fa fa-circle" aria-hidden="true"></i>
                                             </div>
-                                            <div class="number_dot active">
+                                            <div class="number_dot" ng-class="{'active':vm.timerActive}">
                                                 <i class="fa fa-circle" aria-hidden="true"></i>
                                             </div>
                                         </div>
                                         <div class="timeSec" style="text-align: left;">
                                             <label>
-                                                <number time="goal142 = 0"></number>
-                                                <number time="goal242=9"></number>
+                                                <number time="vm.outputHrRemaining[0]"></number>
+                                                <number time="vm.outputHrRemaining[1]"></number>
                                             </label>
                                             <h4>Hour</h4>
                                         </div>
@@ -121,23 +123,23 @@
                         <div class="col-xs-12">
                             <label class="pull-right">
                                 <i class="fa fa-usd" aria-hidden="true"></i>
-                                <number time="vm.outputCurrentCoachSale[0]"></number>
-                                <number time="vm.outputCurrentCoachSale[1]"></number>
-                                <number time="vm.outputCurrentCoachSale[2]"></number>
-                                <number time="vm.outputCurrentCoachSale[3]"></number>
-                                <number time="vm.outputCurrentCoachSale[4]"></number>
-                                <number time="vm.outputCurrentCoachSale[5]"></number>
-                                <number time="vm.outputCurrentCoachSale[6]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[0]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[1]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[2]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[3]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[4]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[5]"></number>
+                                <number time="vm.outputCurrentpartnerSalese[6]"></number>
                             </label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 text-center">
                             <label>
-                                <i class="fa fa-percent" aria-hidden="true"></i>
-                                <number time="goal1"></number>
-                                <number time="goal224=1"></number>
-                                <number time="goal3524=4"></number>
+                                <span class="percentIcon">%</span>
+                                <number time="vm.outputPartnerSalePerc[0]"></number>
+                                <number time="vm.outputPartnerSalePerc[1]"></number>
+                                <number time="vm.outputPartnerSalePerc[2]"></number>
                             </label>
                         </div>
                     </div>
@@ -155,11 +157,11 @@
                         <div class="col-xs-12">
                             <label>
                                 <i class="fa fa-usd" aria-hidden="true"></i>
-                                <number time="vm.outputCurrentpartnerSalese[0]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[1]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[2]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[3]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[4]"></number>
+                                <number time="vm.outputTodayCoachSale[0]"></number>
+                                <number time="vm.outputTodayCoachSale[1]"></number>
+                                <number time="vm.outputTodayCoachSale[2]"></number>
+                                <number time="vm.outputTodayCoachSale[3]"></number>
+                                <number time="vm.outputTodayCoachSale[4]"></number>
                             </label>
                         </div>
                     </div>
@@ -172,13 +174,13 @@
                                 <div class="col-xs-12">
                                     <label>
                                         <i class="fa fa-usd" aria-hidden="true"></i>
-                                        <number time="vm.outputCurrentpartnerSalese[0]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[1]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[2]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[3]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[4]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[5]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[6]"></number>
+                                        <number time="vm.outputTotalSales[0]"></number>
+                                        <number time="vm.outputTotalSales[1]"></number>
+                                        <number time="vm.outputTotalSales[2]"></number>
+                                        <number time="vm.outputTotalSales[3]"></number>
+                                        <number time="vm.outputTotalSales[4]"></number>
+                                        <number time="vm.outputTotalSales[5]"></number>
+                                        <number time="vm.outputTotalSales[6]"></number>
                                     </label>
                                 </div>
                             </div>
@@ -188,10 +190,10 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <label>
-                                        <number time="vm.outputCurrentpartnerSalese[0]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[1]"></number>
-                                        <number time="vm.outputCurrentpartnerSalese[2]"></number>
-                                        <i class="fa fa-percent" aria-hidden="true"></i>
+                                        <number time="vm.outputTotalSalePerc[0]"></number>
+                                        <number time="vm.outputTotalSalePerc[1]"></number>
+                                        <number time="vm.outputTotalSalePerc[2]"></number>
+                                        <span class="percentIcon">%</span>
                                     </label>
                                 </div>
                             </div>
@@ -204,11 +206,11 @@
                         <div class="col-xs-12">
                             <label>
                                 <i class="fa fa-usd" aria-hidden="true"></i>
-                                <number time="vm.outputCurrentpartnerSalese[0]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[1]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[2]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[3]"></number>
-                                <number time="vm.outputCurrentpartnerSalese[4]"></number>
+                                <number time="vm.outputTodayPartnerSale[0]"></number>
+                                <number time="vm.outputTodayPartnerSale[1]"></number>
+                                <number time="vm.outputTodayPartnerSale[2]"></number>
+                                <number time="vm.outputTodayPartnerSale[3]"></number>
+                                <number time="vm.outputTodayPartnerSale[4]"></number>
                             </label>
                         </div>
                     </div>
@@ -219,7 +221,8 @@
 
 
     <script src="app/js/app.js"></script>
-    <script src="app/js/directives/number.directive.js"></script>
     <script src="app/js/controllers/numberController.js"></script>
+    <script src="app/js/directives/number.directive.js"></script>
+    <script src="app/js/directives/fball.directive.js"></script>
 </body>
 </html>
